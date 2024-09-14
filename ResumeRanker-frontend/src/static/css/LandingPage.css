@@ -1,0 +1,119 @@
+/* LandingPage.css */
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Change this to your desired color */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 12px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #3498db; /* Change this to your desired color */
+}
+
+.landing-page {
+    background-color: #f8f9fa;
+    padding-bottom: 20px;
+    padding: 50px;
+  }
+  
+  .header {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #6c757d;
+  }
+  
+  .about,
+  .features,
+  .services,
+  .cta,
+  .contact {
+    padding: 80px 0;
+  }
+  
+  .about h2,
+  .features h2,
+  .services h2,
+  .cta h2,
+  .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .about p,
+  .features p,
+  .services p,
+  .cta p,
+  .contact p {
+    font-size: 1.2em;
+    color: #6c757d;
+  }
+  
+  .about h3,
+  .features h3,
+  .services h3,
+  .cta h3,
+  .contact h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff; /* Primary color */
+  }
+  
+  .cta Button {
+    font-size: 1.2em;
+  }
+  
+  .contact-info p {
+    font-size: 1.2em;
+    color: #6c757d;
+  }
+  
+  /* Add animation for the cards */
+  .animated-card {
+    transform: translateY(0);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animated-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Add styles for contact form */
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .about h2,
+    .features h2,
+    .services h2,
+    .cta h2,
+    .contact h2 {
+      font-size: 2em;
+    }
+  
+    .contact-info {
+      margin-top: 20px;
+    }
+  }
+  
